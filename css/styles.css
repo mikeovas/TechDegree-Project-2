@@ -1,0 +1,251 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: rgb(152, 202, 235);
+    color: rgb(16, 11, 48);
+ }
+
+h1 {
+    font-family: 'Rowdies', cursive;
+    font-size: 1.75em;
+    color: rgb(49, 16, 80);
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.4em;
+    color: rgb(66, 32, 146);
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: rgb(115, 67, 129);
+    font-size: 1.0em;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+h2, h3 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(74, 36, 212);
+    font-weight: 700;
+}
+
+a:hover {
+    color: salmon;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.main-nav {
+    background-color: rgb(165, 142, 250);
+    border-bottom: 1px solid grey;
+}
+
+.main-nav ul {
+    padding-left: 0;
+}
+
+.main-nav ul li {
+    text-align: center;
+    list-style-type: none;
+    font-weight: 700;
+    line-height: 1.75;
+    margin-bottom: 0.5em;
+ }
+
+.profile {
+    text-align: center;
+}
+.profile-pic {
+    max-width:60%;
+    margin: 3em 0.5em 2em;
+}
+
+/* ---- Layout Containers ---- */
+
+.profile p {
+    text-align: center;
+    width: 85%;
+    margin: 5% 5%;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+ }
+
+.container {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+
+/* ---- Footers ---- */
+.main-footer {
+text-align: center;
+margin-top: 2em;
+}
+
+#contact {
+    text-transform: uppercase;
+}
+
+.desktop {
+    display: none;
+}
+
+.mobile {
+    background-color: rgb(165, 142, 250);
+    max-width: 100%;
+    border-top: 1px solid grey;
+    font-size: .8em;
+}
+
+.mobile h2 {
+    display: inline-block;
+    color: rgb(49, 16, 80);
+    padding-right: 50%;
+ }
+
+ /* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+    }
+ 
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width: 768px) {
+
+    /* navigation bar */
+    .main-nav {
+        text-align: center;
+        }
+
+    .main-navbar {
+        display: inline-block;
+        margin-top: 0px;
+        line-height: 1.6;
+        }
+
+    .name {
+        padding-top: 30px;
+        margin-top: 0;
+      }     
+
+    .main-navbar li {
+     float: left;
+     margin-right: 20px;
+       }
+
+   /* main content */
+    .container {
+        width: 100%;
+    }
+     
+    figure {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+    .col {
+        width: 45%;
+        padding: 0 0.5em;
+    }   
+    
+    .profile-pic {
+        float: right;
+        width: 40%;
+        margin-top: 0;
+    }
+
+    .profile p {
+        width: 60%;
+      }
+
+      .marketing, 
+      .travel, 
+      .photos, 
+      .skills {
+          float: left;
+      }
+
+    .search, 
+    .spots, 
+    .calculator {
+        float: right;
+    }    
+
+ 
+    /* footer */
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+        background-color: rgb(165, 142, 250);
+        padding-bottom: 30px;
+        max-width: 100%;
+        border-top: 1px solid grey;
+        font-size: .8em;
+    }    
+
+    /* .name {
+        float: left;
+    } */
+
+    .bottom-nav li {
+        float: right;
+        /* padding-left: auto;
+        padding-right: auto; */
+        margin-right: 20px;
+          }
+
+    .bottom-nav ul li {
+            text-align: center;
+            list-style-type: none;
+            font-weight: 700;
+            line-height: 1.75;
+            margin-bottom: 0.5em;
+         }
+
+
+/*	 ---- Float clearfix ---- */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+    }
+}   
