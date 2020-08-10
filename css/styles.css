@@ -221,23 +221,25 @@ margin-top: 2em;
         font-size: .8em;
     }    
 
-    /* .name {
+    .footer-name {
         float: left;
-    } */
+        line-height: 1.75;
+        padding-left: 1.5em;
+        margin-top: 1.5em;
+        margin-bottom: 0;
+    }
 
     .bottom-nav li {
         float: right;
-        /* padding-left: auto;
-        padding-right: auto; */
-        margin-right: 20px;
+        text-align: right;
+        padding-right: 1.5em;
           }
 
     .bottom-nav ul li {
-            text-align: center;
             list-style-type: none;
             font-weight: 700;
             line-height: 1.75;
-            margin-bottom: 0.5em;
+            margin-top: 1.5em;
          }
 
 
