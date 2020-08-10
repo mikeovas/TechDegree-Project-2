@@ -109,8 +109,8 @@ figcaption {
 
 /* ---- Footers ---- */
 .main-footer {
-text-align: center;
-margin-top: 2em;
+    text-align: center;
+    margin-top: 2em;
 }
 
 #contact {
@@ -137,9 +137,9 @@ margin-top: 2em;
  /* ---- Float clearfix ---- */
 
 	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
+	content: " ";
+	display: table;
+	clear: both;
     }
  
 /* ================================= 
@@ -150,23 +150,23 @@ margin-top: 2em;
     /* navigation bar */
     .main-nav {
         text-align: center;
-        }
+    }
 
     .main-navbar {
         display: inline-block;
         margin-top: 0px;
         line-height: 1.6;
-        }
+    }
 
     .name {
         padding-top: 30px;
         margin-top: 0;
-      }     
+    }     
 
     .main-navbar li {
-     float: left;
-     margin-right: 20px;
-       }
+        float: left;
+        margin-right: 20px;
+    }
 
    /* main content */
     .container {
@@ -191,14 +191,14 @@ margin-top: 2em;
 
     .profile p {
         width: 60%;
-      }
+    }
 
       .marketing, 
       .travel, 
       .photos, 
       .skills {
-          float: left;
-      }
+        float: left;
+    }
 
     .search, 
     .spots, 
@@ -249,8 +249,8 @@ margin-top: 2em;
  /*	 ---- Float clearfix ---- */
 
 .clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
+        content: " ";
+        display: table;
+        clear: both;
     }
 }   
