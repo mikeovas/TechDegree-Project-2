@@ -134,6 +134,10 @@ figcaption {
     padding-right: 50%;
  }
 
+ .email {
+    text-transform: lowercase;
+} 
+
  /* ---- Float clearfix ---- */
 
 	.clearfix::after {
@@ -223,7 +227,8 @@ figcaption {
 
     .email {
         text-transform: lowercase;
-    }    
+    } 
+       
     .footer-name {
         float: left;
         line-height: 1.75;
@@ -248,9 +253,83 @@ figcaption {
 
  /*	 ---- Float clearfix ---- */
 
-.clearfix::after {
+    .clearfix::after {
         content: " ";
         display: table;
         clear: both;
     }
 }   
+
+@media (min-width: 1024px) {
+
+    /* navigation bar */
+     
+    .name {
+        float: left;
+        line-height: 1.75;
+        padding: 1em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }    
+    
+    .main-navbar {
+        float: right;
+        padding: 1em;
+        margin-bottom: 0;
+    }
+
+    .main-navbar li {
+        float: left;
+        text-align: right;
+        list-style-type: none;
+        font-weight: 700;
+        line-height: 1.75;
+        padding: 1.5em 1.5em 0 0;
+    }
+
+   /* main content */
+
+   .container {
+        width: 100%;
+    }
+ 
+    figure {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .profile-pic {
+        float: right;
+        width: 40%;
+        margin-top: 0;
+    }
+
+    .profile p {
+        width: 60%;
+    }
+
+    .col {
+        width: 27%;
+        padding: 0 0.5em;
+    }   
+
+    .marketing,
+    .search,  
+    .travel, 
+    .photos, 
+    .spots, 
+    .calculator, 
+    .skills {
+        float: left;
+    }
+
+
+
+ /*	 ---- Float clearfix ---- */
+
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
