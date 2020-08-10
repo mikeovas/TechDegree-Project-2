@@ -221,6 +221,9 @@ margin-top: 2em;
         font-size: .8em;
     }    
 
+    .email {
+        text-transform: lowercase;
+    }    
     .footer-name {
         float: left;
         line-height: 1.75;
@@ -229,18 +232,22 @@ margin-top: 2em;
         margin-bottom: 0;
     }
 
-    .bottom-nav li {
+    .bottom-nav ul {
         float: right;
+    }
+
+    .bottom-nav li {
+        float: left;
         text-align: right;
         padding-right: 1.5em;
-          }
+    }
 
     .bottom-nav ul li {
-            list-style-type: none;
-            font-weight: 700;
-            line-height: 1.75;
-            margin-top: 1.5em;
-         }
+        list-style-type: none;
+        font-weight: 700;
+        line-height: 1.75;
+        margin-top: 1.5em;
+    }
 
 
 /*	 ---- Float clearfix ---- */
