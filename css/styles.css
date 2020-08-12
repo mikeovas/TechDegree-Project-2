@@ -101,6 +101,10 @@ img {
     width: 100%;
 }
 
+.col {
+    min-height: 30%;
+}
+
 figcaption {
     text-align: center;
     margin-bottom: 2.5em;
@@ -199,8 +203,7 @@ figcaption {
 
       .marketing, 
       .travel, 
-      .photos, 
-      .skills {
+      .photos {
         float: left;
     }
 
@@ -210,7 +213,15 @@ figcaption {
         float: right;
     }    
 
- 
+    .skills-container {
+        padding-left: 30%;
+        Padding-right: 30%;
+    }
+
+    .skills {
+        height: 70%;
+    }
+
     /* footer */
     .mobile {
         display: none;
@@ -250,6 +261,8 @@ figcaption {
         padding-right: 1.5em;
         margin-top: 1.5em;
     }
+
+ 
 
  /*	 ---- Float clearfix ---- */
 
@@ -310,18 +323,20 @@ figcaption {
 
     .col {
         width: 29%;
-    }   
+      }   
 
     .marketing,
     .search,  
     .travel, 
     .photos, 
     .spots, 
-    .calculator, 
-    .skills {
+    .calculator {
         float: left;
     }
 
+    .skills-container {
+        text-align: center;
+    }
 
 
  /*	 ---- Float clearfix ---- */
