@@ -184,7 +184,7 @@ figcaption {
     }
 
     .col {
-        min-height: 100%;
+        min-height: 400px;
         width: 45%;
         padding: 0 0.5em;
     }   
@@ -216,7 +216,7 @@ figcaption {
         Padding-right: 30%;
     }
 
-    
+
     /* footer */
     .mobile {
         display: none;
