@@ -101,9 +101,6 @@ img {
     width: 100%;
 }
 
-.col {
-    min-height: 30%;
-}
 
 figcaption {
     text-align: center;
@@ -187,6 +184,7 @@ figcaption {
     }
 
     .col {
+        min-height: 100%;
         width: 45%;
         padding: 0 0.5em;
     }   
